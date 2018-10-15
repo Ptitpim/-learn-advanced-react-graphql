@@ -2,17 +2,17 @@ import App, { Container } from 'next/app';
 import Page from '../components/Page';
 
 class myApp extends App {
-    render() {
-        const { Component } = this.props;
+  render() {
+    const { Component } = this.props;
 
-        return (
-            <Container>
-                <Page>
-                    <Component />
-                </Page>
-            </Container>
-        );
-    }
+    return (
+      <Container>
+        <Page>
+          <Component />
+        </Page>
+      </Container>
+    );
+  }
 }
 
 export default myApp;
